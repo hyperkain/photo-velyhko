@@ -1,0 +1,386 @@
+$main_color: #1ABB9C
+$text_color: #656565
+$menu_text_color: #d8d8d8
+$text_color_darknes: #333
+body
+	padding: 0
+	margin: 0
+	letter-spacing: 0.08em
+	
+	section
+		color: $text_color
+		line-height: 2em
+		font-size: 15px
+.soft-blur-overlay 
+	
+	-webkit-filter: blur(0px) 
+	-moz-filter: blur(0px)
+	-o-filter: blur(0px) 
+	-ms-filter: blur(0px)
+	filter: blur(0px) 
+	
+
+p, h1, h2, h3, span
+	font-family: 'PT Sans', sans-serif
+	
+h3
+	f
+	text-transform: uppercase
+	color: $text_color_darknes
+.color-main
+	height: 82px
+	background-color: $main_color
+.color-main h2
+	text-transform: uppercase
+	font-size: 25px
+	color: #fff
+	padding: 5px 0px 20px 8%
+.content
+	padding: 80px 0
+.hidden
+	display: none
+.box-hidden
+	visibility: hidden
+.animated
+	visibility: visible
+.overflow
+	overflow: hidden
+.top-container
+	
+	position: absolute
+	background-color: rgba(0,0,0, .7)
+	z-index: 50
+	padding: 15px
+	width: 100%
+	display: block
+.top-menu
+	margin-top: 0
+	margin-bottom: 0px
+	list-style: none
+	margin-right: 5% 
+	
+	float: right
+	li
+		display: inline-block
+		
+		a
+			text-decoration: none
+			text-transform: uppercase
+			font-size: 14px
+			font-weight: 600
+			color: $menu_text_color
+			display: block
+			padding: 20px 15px
+			transition: all .5s
+			&:hover
+				color: $main_color
+				
+.logo
+	width: 75px
+	height: 75px
+	left: 15px
+	top: 7px
+	background-color: #ccc
+	position: absolute
+	z-index: 99999
+	
+	
+	
+	
+.button-menu
+	position: fixed
+	border-radius: 2px 
+	z-index: 9999
+	display: none
+	background-color: $text_color
+	border: none
+	-webkit-border: none
+	top: 15px
+	right: 15px
+	
+	span
+		display: block
+		width: 30px
+		height: 3px
+		background-color: #fff
+		margin: 5px auto
+		border-radius: 2px 
+		
+
+.name
+	position: relative
+	
+	width: 100%
+	height: 2110px
+	background-color: #000
+
+.zag-wrapp
+	position: absolute
+	text-align: center
+	margin: 0 auto
+	z-index: 150
+	top: 30%
+	width: 100%
+	h1
+		
+		color: #fff
+		display: inline-block
+		background-color: rgba(0,0,0, .7s)
+		
+		font-size: 2.8em
+		-webkit-animation-delay: 0.4s
+		-moz-animation-delay: 0.4s
+		animation-delay: 0.4s
+		
+		text-transform: uppercase
+		text-align: center
+		padding: 20px
+		font-weight: bold
+	h3
+		
+		letter-spacing: 3px
+		text-transform: uppercase
+		-webkit-animation-delay: 0.4s
+		-moz-animation-delay: 0.4s
+		animation-delay: 0.4s 
+		background-color: rgba(0,0,0, .7)
+		color: #fff
+		padding: 20px
+		display: inline-block
+		margin-top: 0
+		font-weight: 100
+		font-size: 1.6em
+	.social
+		display: inline-block
+		margin-top: 20px
+		
+		a
+			display: inline-block
+			width: 50px
+			margin-left: 10px
+			background-color: rgba(0,0,0, .5)
+			padding: 10px
+			i
+				color: #fff
+				
+				font-size: 30px
+.color-main
+	position: relative
+	&::after
+		content: ""
+		width: 0
+		height: 0
+		border-left: 10px solid transparent
+		border-right: 10px solid transparent
+		border-top: 10px solid $main_color
+		position: absolute
+		left: 10%
+		bottom: -10px
+		z-index: 99
+			
+
+.s-about
+	h3
+		color: $text_color_darknes
+	.persona
+		max-width: 320px
+		height: 320px
+		
+		margin: 0px auto
+		img
+			width: 100%
+			display: block
+			
+		
+			border-radius: 50%
+	.high-text
+		color: $text_color_darknes
+		font-size: 22px
+		font-weight: 100
+	.i-am
+		margin-bottom: 30px
+	.about_work
+		margin-top: 40px
+.s-portfolio
+	background-color: #333333
+	color: #fff
+.galery_menu
+	list-style-type: none
+	padding: 0
+	margin: 0 0 50px 0
+	text-align: center
+	
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+		text-align: center
+		display: inline-block
+		text-transform: uppercase
+		margin: 0 10px
+		cursor: pointer
+		&.active
+			color: $main_color
+#portfolio_table 
+	.mix
+		display: none
+	.potfolio_item
+		padding:  0
+		&:hover .port_item_cont
+			opacity: 1
+	img
+		width: 100%
+		height: 100%
+	.port_item_cont
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0, .7)
+		text-align: center
+		opacity: 0
+		transition: all .5s
+
+	
+		a
+			color: #fff
+			width: 100%
+			height: 100%
+			display: inline-block
+			text-decoration: none
+			span
+				display: inline-block
+				border: 2px solid $main_color
+				margin-top: 27%
+				padding: 1% 7%
+			
+.port_descr
+	position: relative
+	margin: auto
+	max-width: 800px
+	
+
+
+.s-contacts
+	.content
+		position: relative
+		.img-wrapper
+			position: absolute
+			left: 0
+			top: 0
+			height: 100%
+			width: 100%
+			background-color: rgba(0,0,0, .6)
+			img
+				position: absolute
+				left: 0
+				top: 0
+				height: 100%
+				width: 100%
+				z-index: -5
+				-webkit-filter: blur(5px) 
+				-moz-filter: blur(5px)
+				-o-filter: blur(5px) 
+				-ms-filter: blur(5px)
+				filter: blur(5px) 
+		label.form-group
+			display: block
+			input,
+			textarea
+				display: block
+				width: 100%
+				max-width: 100%
+				padding: 10px
+				background-color: rgba(255,255,255, .2)
+				border: none
+				margin-bottom: 30px
+				font-size: 1.2em
+				color: #fff
+				border-radius: 2px
+				font-weight: 300
+			
+			textarea
+				height: 100px
+			span ul li
+				font-weight: 300
+				color: #fff
+		button
+			
+			color: #fff
+			background-color: #0C94E0
+			border: none
+			border-radius: 2px
+			padding: 10px 15px
+			
+		.my-contacts
+			margin-bottom: 30px
+			color: #fff
+			h3
+				color: #fff
+				margin-top: 0
+				margin-bottom: 15px
+			p
+				margin-bottom: 20px
+		i
+			margin-right: 15px
+.s-service
+	h3
+		margin-top: 0
+		color: $text_color_darknes
+		
+	
+		
+	img
+		height: 100%
+		width: 100%
+		margin-bottom: 20px
+	.price
+		margin: 47px 0 0 0
+		padding: 0
+		li
+			margin: 0
+			padding: 0
+			list-style: none
+			&:nth-child(1)
+				-webkit-animation-delay: 0.1s
+				-moz-animation-delay: 0.1s
+				animation-delay: 0.1s
+				-webkit-animation-duration: 0.6s
+				-moz-animation-duration: 0.6s
+				animation-duration: 0.6s
+			&:nth-child(2)
+				-webkit-animation-delay: 0.3s
+				-moz-animation-delay: 0.3s
+				animation-delay: 0.3s
+				-webkit-animation-duration: 0.6s
+				-moz-animation-duration: 0.6s
+				animation-duration: 0.6s
+			&:nth-child(3)
+				-webkit-animation-delay: 0.5s
+				-moz-animation-delay: 0.5s
+				animation-delay: 0.5s
+				-webkit-animation-duration: 0.6s
+				-moz-animation-duration: 0.6s
+				animation-duration: 0.6s
+	.row
+		margin-bottom: 40px
+	.col-md-5
+		border-right: 1px solid 				
+
+footer
+	padding: 30px 
+	.foot-wrap
+		margin: 0 auto
+		text-align: center
+		i
+			font-size: 25px
+			margin-right: 10px
+
+
+	
+			
+			
+			
+		
+		

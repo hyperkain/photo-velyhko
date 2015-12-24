@@ -1,0 +1,169 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.personal_last_block {
+		margin-top: 35px;
+	}
+	.high-text{
+		margin-top: 40px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 790px) {
+	.top-container{
+		padding: 10px;
+	}
+	
+	
+	.top-menu li a {
+     	padding: 15px  4px;
+      	font-size: 12px;
+		
+     
+	}
+    .top-menu li a:hover {
+        color: #1ABB9C;
+	}
+	.logo {
+		top: 3px;
+		left: 10px;
+		width: 60px;
+		height: 60px;	
+	}
+	.zag-wrapp{
+		top: 20%
+	}
+	.zag-wrapp h1{
+		font-size: 2.2em;
+		padding: 16px;
+	}
+	.zag-wrapp h3{
+		font-size: 1.2em;
+		padding: 16px;
+	}
+	.zag-wrapp a{
+		width: 40px;
+		margin-left: 0px;
+			
+		padding: 8px;
+	}
+	.zag-wrapp .social a i {
+        color: #fff;
+        font-size: 24px; }
+
+}
+
+
+@media only screen and (max-width : 768px) {
+	.s-service .col-md-5 {
+		border: none;
+	}
+	.s-service ul  {
+		margin-top: 0px
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 464px) {
+	.soft-blur-overlay {
+	
+		-webkit-filter: blur(3px); 
+		-moz-filter: blur(3px);
+		-o-filter: blur(3px); 
+		-ms-filter: blur(3px);
+		filter: blur(3px); 
+		
+	}
+	.top-container{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		z-index: 9991;
+		display: none;
+		padding-top: 100px; 
+		background-color: rgba(0,0,0, .9);
+	}
+	.button-menu {
+  	display: block;
+	}
+	.top-menu {
+		
+		padding: 0;
+		display: block;
+		float: none;
+		margin: auto;
+
+	}
+	.top-menu li{
+		display: block;
+		text-align: center;
+	}
+	.top-menu li a{
+		padding: 15px 15px;
+		text-align: center;
+		font-size: 16px;
+	}
+	.logo {
+		top: 3px;
+	  	width: 45px;
+	  	height: 45px;
+	}
+	 #portfolio_table .port_item_cont p {
+		margin-top: -15px;
+		font-size: 0.7em;
+		margin-bottom: -5px;
+    }
+     #portfolio_table .port_item_cont h3 {
+		
+		font-size: 0.8em;
+    }
+     #portfolio_table .port_item_cont a span{
+		display: inline-block;
+		margin-top: 25%;
+		padding: 5px 10px;
+		font-size: 0.8em;
+		line-height: 10px;
+		
+	 }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

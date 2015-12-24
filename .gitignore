@@ -1,0 +1,5 @@
+#folder ignor
+ignor/
+
+#text files
+docs/*.txt
